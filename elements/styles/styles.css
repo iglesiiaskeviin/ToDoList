@@ -1,0 +1,95 @@
+/* FONTS IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/* FORM STYLES */
+.main__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1.5rem;
+    padding: 2.5rem;
+    justify-items: center;
+    background-color: rgba(50, 123, 168, 0.95);
+    border-radius: 7.5px;
+}
+
+.form-group{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+
+.form-group .textInput{
+    background-color: white;
+    border: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.inputButton{
+    background-color: #009eff;
+    color: black;
+    border: none;
+    border-radius: 5.5px;
+}
+
+.inputButton:hover{
+    transition: all 0.5s;
+    background-color: #055382;
+    color: white;
+}
+
+/* LIST STYLES */
+.ul_List{
+    color: white;
+    text-align: center;
+    margin: 10.5px;
+    text-decoration: none;
+    font-style: none;
+    list-style: none;
+    padding: 7.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+.ul_List li a:hover{
+/*     color: red; */
+    color: black;
+    text-decoration: line-through;
+    /* font-size: xx-large; */
+    transition: all 0.2s;
+    border: solid 1.5px red;
+}
+
+.list-group-item{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pElement{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* JS ELEMENTS */
+.errorInput{
+    border: 2.5px solid red;
+}
+
+/*  */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: black;
+   opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: black;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+}
