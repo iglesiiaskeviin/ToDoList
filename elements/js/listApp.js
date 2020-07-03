@@ -32,7 +32,7 @@
             title: "¡Agregado!",
             text: "Has agrado " + tarea + " a tu lista.", 
             icon: "success",
-            button: "Continuar",
+            button: "Agregar otra tarea",
         })
 
         inputCheck.value = "";
