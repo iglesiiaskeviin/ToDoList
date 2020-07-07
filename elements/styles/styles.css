@@ -68,11 +68,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.pElement{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
 /* JS ELEMENTS */
 .errorInput{
     border: 2.5px solid red;

@@ -4,7 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/07a1c5c4dc.js" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME -->
     <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
     <!-- LINKS OWN -->
@@ -15,22 +17,20 @@
 
     <div class="container-fluid">
         <!-- FORM -->
-            <form class="main__form" action="">
+          <form class="main__form" action="">
+              <h1>To Do List</h1>
+              <div class="form-group">
+                <input class="textInput errorInput" type="text" id="inputText" placeholder="Ingresa tu tarea">
+              </div>
                 <div class="form-group">
-                  <input class="textInput errorInput" type="text" id="inputText" placeholder="Introduce una tarea!">
+                  <button class="inputButton" type="button" id="button"><i class="fas fa-plus"></i></button>
                 </div>
-                  <div class="form-group">
-                    <input class="inputButton " type="button" id="button" value="Agregar a Tu lista de tareas!"></input>
-                  </div>
-            </form>
-            <div class="col pElement">
-              <p>Si quieres eliminar una tarea de tu lista, pasa el mouse encima de ella y presiona click!</p>
-            </div>
+          </form>
         <!-- FORM -->
         <!-- TO DO LIST ELEMENTS -->
         <div class="row-12">
             <ul class="list-group ul_List" id="listado">
-                <li class="list-group-item text-center">Tu lista de tareas!</li>
+                <li class="list-group-item text-center">Tus tareas <i class="fas fa-list"></i></li>
             </ul>
         </div>
     </div>

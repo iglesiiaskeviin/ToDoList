@@ -45,7 +45,7 @@
     };
     var checkInput = function() {
         inputCheck.className = "";
-        inputCheck.setAttribute("placeholder", "Ingrega aquí tu tarea")
+        inputCheck.setAttribute("placeholder", "Ingresa tu tarea")
     };
 
     var deleteElement = function() {
